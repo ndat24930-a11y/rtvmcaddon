@@ -3,7 +3,7 @@
   "short_name": "TRVMCADDON",
   "description": "Website chia sẻ addon Minecraft Bedrock do gà rtv tạo.",
   "lang": "vi-VN",
-  "dir": "ltr"
+  "dir": "ltr",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
