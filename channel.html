@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rtvmcaddon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noname">
+    <div class="avatar"><img src="avatar.png" alt="avatar"></div>
+    <h1 class="home">Kênh 📺</h1>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <div class="menu-content" id="menu">
+      <button onclick="location.href='index.html'">Trang Chủ 🏠</button>
+      <button onclick="location.href='donate.html'">Đóng Góp 💎</button>
+    </div>
+  </div>
+  
+  <div class="kenh">
+    <b>Kênh YouTube và Tik Yok  của mình</b>
+    <div class="button-container">
+      <button class="Button-yt" style="background-color: #FF0000; color: black" onclick="linkYT()">
+        <svg class="logo-yt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="white" d="M549.655 124.083c-6.281-23.651-24.787-42.276-48.25-48.637C465.29 64 288 64 288 64S110.709 64 74.595 75.446c-23.463 6.361-41.969 24.986-48.25 48.637C16 160.194 16 256 16 256s0 95.806 10.345 131.917c6.281 23.651 24.787 42.276 48.25 48.637C110.709 448 288 448 288 448s177.29 0 213.405-11.446c23.463-6.361 41.969-24.986 48.25-48.637C560 351.806 560 256 560 256s0-95.806-10.345-131.917zM232 336V176l142 80-142 80z"/>
+        </svg>YouTube
+      </button>
+      <button class="Button-tiktok" style="background-color: #010101; color:white" onclick="linkTikTok()">
+        <svg class="logo-tiktok" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 286" fill="#FFFFFF">
+          <path d="M180.6 0h-46.7v189.2c0 22.1-17.9 40-40 40s-40-17.9-40-40c0-22.1 17.9-40 40-40 5.3 0 10.3 1 14.9 2.8V107c-4.9-.7-9.8-1.1-14.9-1.1C42.3 105.9 0 148.2 0 200.1S42.3 294.3 94.2 294.3s94.2-42.3 94.2-94.2V104.8c12.5 9 27.7 14.4 44.1 14.4V72.5c-15.4 0-29.8-5.1-41.9-13.6C180 48.7 180.6 24.7 180.6 0z"/>
+          </svg>Tik Tok
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

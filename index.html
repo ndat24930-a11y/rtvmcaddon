@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rtvmcaddon</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#000000">
+</head>
+<body>
+  <div class="noname">
+    <div class="avatar"><img src="avatar.png" alt="avatar"></div>
+    <h1 class="home">Trang Chủ 🏠</h1>
+    <input class="search-content" id="search" type="text" placeholder="Nhập tên addon...">
+    <button class="search-btn" onclick="toggleSearch()">
+      <img class="icon-search" src="icon_search.png" alt="icon_search">
+    </button>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <div class="menu-content" id="menu">
+      <button onclick="location.href='channel.html'">Kênh 📺</button>
+      <button onclick="location.href='donate.html'">Đóng Góp 💎</button>
+    </div>
+  </div>
+
+  <div class="led"><span>🔥 Chào mừng bạn đến với website - nơi chứa đựng những addon mình tạo ra 😎</span></div>
+
+  <h2 class="phanaddon">Dưới đây là addon của mình 🔥</h2>
+
+  <ul class="button-container" id="list">
+    <button onclick="location.href='fairy_dust.html'"><img class="anhaddon" src="anhaddon1.png" alt="anh-addon1"><div>Fairy Dust</div></button>
+    <button onclick="location.href='cobblestone_generators_mcpe.html'"><img class="anhaddon" src="anhaddon2.png" alt="anh-addon2"><div>Cobblestone Generators MCPE</div></button>
+  </ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
