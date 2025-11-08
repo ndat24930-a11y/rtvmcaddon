@@ -1,9 +1,17 @@
-function linkAddon1() {
+function linkFairyDust4m() {
   window.open("https://link4m.com/G2NCwfvR", "_blank");
 }
 
-function linkAddon2() {
+function linkFairyDustyeumoney() {
+  window.open("https://yeumoney.com/Zku93", "_blank");
+}
+
+function linkCobblestoneGeneratorsMCPE4m() {
   window.open("https://link4m.com/V5wUnSw", "_blank");
+}
+
+function linkCobblestoneGeneratorsMCPEyeumoney() {
+  window.open("https://yeumoney.com/Rho53", "_blank");
 }
 
 function linkPackVietHoa() {
