@@ -1,9 +1,9 @@
 function linkAddon1() {
-  window.open("https://www.mediafire.com/file/7zd66klpl6a3yjb/Fairy+Dust.mcaddon/file", "_blank");
+  window.open("https://link4m.com/G2NCwfvR", "_blank");
 }
 
 function linkAddon2() {
-  window.open("https://www.mediafire.com/file/zs8z8kynatftszn/Cobblestone+Generators+MCPE.mcaddon/file", "_blank");
+  window.open("https://link4m.com/V5wUnSw", "_blank");
 }
 
 function linkPackVietHoa() {
